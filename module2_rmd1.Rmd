@@ -1,11 +1,11 @@
 ---
-title: "Module2- R Markdown Document 1"
+title: "Module 2"
 author: "Bui Le Thanh Khiet"
-date: "October 16, 2019"
+date: "October 17, 2019"
 output:
   pdf_document: default
-  word_document: default
   html_document: default
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -22,13 +22,13 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 
 Here is the link to [GOOGLE](http://google.com)
 
-Here is the word in **bold** and another word in __bold__.
+Here is the word in **bold** and another word in __bold__
 
-Here is the word in *italic* and another word in _italic_.
+Here is the word in *italic* and another word in _italic_
 
 When we compile our document, we are using the `rmarkdown` package.
 
-Here are some examples R commands:
+Here are some example R commands:
 
 ```
 2+2
@@ -46,7 +46,7 @@ Here is an example of a non-numbered list:
         + apple juice
 * Lunch
     - taco
-* Dinner
+* Diner
     - baked chicken
     - broccoli
     - rice
@@ -62,33 +62,30 @@ Here is an example of a numbered list:
         i. apple juice
 2. Lunch
     a. taco
-3. Dinner
+3. Diner
     a. baked chicken
     b. broccoli
     c. rice
-    
+
 Here is an example of blockquote:
 
-> This is a block quote. This 
-> paragraph has two lines
+> This is a blockquote. This
+> paragraph has two lines.
 >
-> 1. This is a list inside a block quote.
+> 1. This is the list inside a blockquote
 > 2. Second item.
 
-Here is an example of nested blockquote:
+Here is an example of a nested blockquote
 
-> This is a block quote. This 
-> paragraph has two lines
+> This is a blockquote. This
+> paragraph has two lines.
 >
-> > This text is nested.
+> > 1. This is the list inside a blockquote
 
 Here is an example of code in a blockquote:
 
 >     2+2
 >     mean(c(1,2,3,4,5))
-
-
-
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
