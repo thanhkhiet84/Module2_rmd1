@@ -3,9 +3,9 @@ title: "Module 2"
 author: "Bui Le Thanh Khiet"
 date: "October 17, 2019"
 output:
-  html_document: default
   word_document: default
   pdf_document: default
+  html_document: default
 editor_options: 
   chunk_output_type: console
 ---
@@ -105,17 +105,16 @@ plot(pressure)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
-```{r pressure2, echo=TRUE, fig.height=4, fig.width=4}
+```{r pressure2, echo=FALSE,fig.width=5,fig.height=5}
 plot(pressure)
 ```
 
-## Insert Tables
+## Insert a table
 
 ```{r}
-knitr::kable(head(cars),
-             caption="Top 6 rows of Cars Dataset")
+knitr::kable(head(cars),caption="6 rows of pressure dataset")
 ```
 
 ## Insert an equation
 
-$$ Y=\beta_0+\beta_1x $$
+$$ Y = \beta_0 + \beta_1x$$
