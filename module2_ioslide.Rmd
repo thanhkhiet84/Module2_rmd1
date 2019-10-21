@@ -1,0 +1,60 @@
+---
+title: "Module 2 - ioslide"
+author: "Bui Le Thanh Khiet"
+date: "October 21, 2019"
+output:
+  slidy_presentation: default
+  ioslides_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
+## A slide with an inserted image {.flexbox.vcenter}
+
+![sunstar](sunstar.png)
+
+## A slide with an inserted table
+```{r}
+knitr::kable(head(cars),caption = "Top 6 rows of cars datase")
+```
+
+## A slide with an inserted equation
+
+A simple linear regression equation
+
+$$ Y=\beta_0+\beta_1x$$
+
+## A slide with two columns{.column-2}
+
+![](sunstar.png)
+
+- bullet 1
+- bullet 2
+- bullet 3
+
